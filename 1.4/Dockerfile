@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-scm
+FROM phommel/buildpack-deps:trusty
 
 # gcc for cgo
 RUN apt-get update && apt-get install -y \
